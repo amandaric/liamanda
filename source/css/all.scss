@@ -1,8 +1,36 @@
 
 // NB: set bootstrap defaults *before* importing it
 
+$brand-primary: #EB2D39;
+$navbar-default-link-color: #FFFFF5;
+$navbar-default-link-hover-color: #FF6E64;
+$navbar-default-bg: #82C4BF;
+$body-bg: #FFFFF5;
 
 @import "bootstrap";
+
+h1 { 
+font-family: ‘Rochester’, cursive, helvetica; 
+font-weight: 400; 
+color: #60918E;
+}
+
+h2 { 
+font-family: ‘Rochester’, cursive, helvetica; 
+font-weight: 400;
+font-color: gray; 
+}
+
+h3 { 
+font-family: ‘Rochester’, cursive, helvetica; 
+font-weight: 400;
+font-color: gray; 
+}
+
+p { 
+font-family: 'Gilda Display', serif;; 
+font-weight: 400; 
+}
 
 #mainImg {
 border: none;
