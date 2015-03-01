@@ -35,8 +35,8 @@ padding: 0;
 h3 { 
 font-family: 'Cinzel', serif; 
 font-weight: 400;
-color: #5D5D62; 
-padding: none;
+color: #5D5D62;
+margin-top: 0;
 }
 
 p { 
@@ -57,7 +57,7 @@ padding-top: 70px;
 
 }
 
-.row[id]{
+.row[id] {
   padding-top: 60px;
   margin-top: -40px;
 }
