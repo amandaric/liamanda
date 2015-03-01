@@ -1,10 +1,17 @@
 
 // NB: set bootstrap defaults *before* importing it
 
-$navbar-default-bg: #312312;
-$light-orange: #ff8c00;
-$navbar-default-color: $light-orange;
 
 @import "bootstrap";
 
+#mainImg {
+border: none;
+max-height: 600px;
+}
 
+body { 
+
+position: relative;
+padding-top: 70px; 
+
+}
