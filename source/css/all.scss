@@ -1,35 +1,45 @@
 
 // NB: set bootstrap defaults *before* importing it
 
+$font-family-base: 'Cinzel', serif;
 $brand-primary: #EB2D39;
 $navbar-default-link-color: #FFFFF5;
-$navbar-default-link-hover-color: #FF6E64;
+$navbar-default-link-hover-color: #5D5D62;
 $navbar-default-bg: #82C4BF;
 $body-bg: #FFFFF5;
+$h2-padding: none;
+
+$font-size-h1: 6em;
+$font-size-h2: 4em;
+$font-size-h3: 1.5em;
 
 @import "bootstrap";
 
 h1 { 
-font-family: ‘Rochester’, cursive, helvetica; 
+font-family: 'Tangerine', cursive;
 font-weight: 400; 
 color: #60918E;
+padding: none;
 }
 
 h2 { 
-font-family: ‘Rochester’, cursive, helvetica; 
-font-weight: 400;
-font-color: gray; 
+font-family: 'Tangerine', cursive;
+font-weight: 400; 
+color: #60918E;
+padding: 0;
 }
 
 h3 { 
-font-family: ‘Rochester’, cursive, helvetica; 
+font-family: 'Cinzel', serif; 
 font-weight: 400;
-font-color: gray; 
+color: #5D5D62; 
+padding: none;
 }
 
 p { 
-font-family: 'Gilda Display', serif;; 
+font-family:'Cinzel', serif;
 font-weight: 400; 
+color: #5D5D62; 
 }
 
 #mainImg {
