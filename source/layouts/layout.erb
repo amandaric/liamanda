@@ -11,9 +11,9 @@
     <%= stylesheet_link_tag "all" %>
   </head>
   
-  <body data-spy="scroll" data-target=".navbar navbar-default navbar-fixed-top">
+  <body data-spy="scroll" data-target="#main-nav">
 
-      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="main-nav">
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -28,10 +28,10 @@
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
               <li role="presentation" class="active"><a href="#"><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span></a></li>
-              <li role="presentation"><a href="#">Event Details</a></li>
-              <li role="presentation"><a href="#">Accommodations</a></li>
-              <li role="presentation"><a href="#">Directions</a></li>
-              <li role="presentation"><a href="#">Registry</a></li>
+              <li role="presentation"><a href="#event-details">Event Details</a></li>
+              <li role="presentation"><a href="#accommodations">Accommodations</a></li>
+              <li role="presentation"><a href="#directions">Directions</a></li>
+              <li role="presentation"><a href="#registry">Registry</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
