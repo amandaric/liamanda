@@ -43,11 +43,6 @@ font-weight: 400;
 color: #5D5D62; 
 }
 
-#mainImg {
-border: none;
-max-height: 600px;
-}
-
 body { 
 
 position: relative;
@@ -55,7 +50,23 @@ padding-top: 70px;
 
 }
 
+.headliner {
+    position: relative;
+}
+
+.headliner-text {
+    top: 50px;
+    right: 40px;
+    position: absolute;
+}
+
+#liamanda h1 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    line-height: 0.8;
+}
+
 .row[id] {
-  padding-top: 60px;
+  padding-top: 50px;
   margin-top: -40px;
 }
