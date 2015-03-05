@@ -67,5 +67,7 @@ configure :build do
 end
 
 activate :s3_sync do |s3|
-  s3.bucket = 'liamanda.com'
+  # s3.bucket = 'liamanda.com'
+  # stage is stage.liamanda.com.s3-website-us-west-2.amazonaws.com
+  s3.bucket = 'stage.liamanda.com'
 end
