@@ -12,6 +12,8 @@ helpful reference: https://github.com/jamiehs/bootstrap-sass-middleman
 
 ### work
 
+cd /Users/m736119/Desktop/liamanda/liamanda 
+
 `./scripts/server.sh` will render the site locally, and auto reload the page on edits
 
 ### deploy
