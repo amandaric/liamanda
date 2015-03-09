@@ -67,9 +67,9 @@ configure :build do
 end
 
 activate :s3_sync do |s3|
-  # s3.bucket = 'liamanda.com'
-  # s3.region = 'us-east-1'
+  s3.bucket = 'liamanda.com'
+  s3.region = 'us-east-1'
   # stage is http://stage.liamanda.com.s3-website-us-west-2.amazonaws.com
-  s3.bucket = 'stage.liamanda.com'
-  s3.region = 'us-west-2'
+  # s3.bucket = 'stage.liamanda.com'
+  # s3.region = 'us-west-2'
 end
